@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.rockscissorpaper"
+        version   = "1.0.0">
+
+    <name>Rock Scissor Paper</name>
+
+    <description>
+        Rock Scissor Paper
+    </description>
+
+    <author>
+        Maya Puan
+    </author>
+
+    <preference name="permissions" value="none"/>
+
+    <icon src="res/icon/android/drawable-ldpi/rsp_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/rsp_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/rsp_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/rsp_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/rsp_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    <icon src="res/icon/android/drawable-xxxhdpi/rsp_icon.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+
+</widget>

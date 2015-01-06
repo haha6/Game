@@ -1,0 +1,84 @@
+body
+{
+    text-align: center;
+    background-color: black;
+}
+
+/* Start of font */
+.wordFont
+{
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;    
+    font-size: 1em;
+    color: whiteSmoke;
+}
+
+#header
+{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.scoreCount, .gameResult
+{
+    font-size: 2em;
+}
+/* End of font */
+
+
+/* Start of image */
+.img-circle
+{
+    border: 0.3em solid dodgerblue;
+    height: 2.8em;
+    width: 2.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.img-circle:hover
+{
+    border: 0.3em solid red;
+}
+
+.imageChoice
+{
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 0.5em;
+}
+/* End of image */
+
+/* Start of boxing style */
+.boxStyle
+{
+    background-color: orange;
+    border-radius: 1em;
+    border: 0.3em solid black;
+    margin-top: 0.5em;
+}
+
+.boxImageStyle
+{
+    background-color: gold;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+.boxStyle.robo
+{
+    background-color: navy;
+}
+
+.boxImageStyle.robo
+{
+    background-color: royalblue;
+}
+/* End of boxing style */
+
+/* Start of button style */
+#newGame > .btn
+{
+    background-color: dodgerblue;
+}
+/* End of button style */
