@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>        
+        <script src="js/jquery-2.0.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/sps.js" defer></script>   
+        <link rel="stylesheet" href="css/sps.css"/>
+    </head>
+    <body>
+        <div id="header" class="wordFont">Rock Scissor Paper</div>
+        <div id="additionalInfo" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <span class="wordFont">Select:</span>
+            <span><img id="optionRock" class="youOption img-circle" src="res/image/option_rock.jpg"/></span>
+            <span><img id="optionScissor" class="youOption img-circle" src="res/image/option_scissor.jpg"/></span>
+            <span><img id = "optionPaper" class="youOption img-circle" src="res/image/option_paper.jpg"/></span>
+        </div>
+        <div id="score" class="container">
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0"></div>
+            <div class="wordFont boxStyle col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                <div>You</div>
+                <div class="scoreCount">
+                    <span id="youScore"></span>
+                </div>
+            </div>
+            <div class="wordFont boxStyle robo col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                <div>Robo</div>
+                <div class="scoreCount">
+                    <span id="roboScore"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0"></div>
+        </div>
+        <div id="result" class="container">
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0"></div>
+            <div class="wordFont boxStyle boxImageStyle col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                <div>
+                    <span id="youResult" class="wordFont"></span>
+                </div>
+                <div class="scoreCount">
+                    <img id="youChoice" class="imageChoice"/>
+                </div>
+            </div>
+            <div class="wordFont boxStyle boxImageStyle robo col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                <div>
+                    <span id="roboResult" class="wordFont"></span>
+                </div>
+                <div class="scoreCount">
+                    <img id="roboChoice" class="imageChoice"/>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0"></div>
+        </div>
+        <div id="newGame">
+            <div class="wordFont btn btn-sm btn-default">
+                New Game
+            </div>
+        </div>
+    </body>
+</html>
